@@ -24,8 +24,8 @@ const pgPassword = config.getConf('pg:password');
 const pool = new Pool({
   user: pgUser,
   password: pgPassword,
-  database: 'testingdb1',
-  host: 'localhost',
+  database: 'hapi',
+  host: '3.12.154.93',
   port: 5432,
 });
 const tomcatDir = config.getConf('hapi:tomcatPath');
