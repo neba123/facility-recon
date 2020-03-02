@@ -47,13 +47,13 @@ function setConf(key, value) {
   nconf.set(key, value);
 }
 
-setConf('DB_HOST', process.env.DB_HOST || 'localhost');
-setConf('DB_NAME', process.env.DB_NAME || 'GOFR_NEW1');
-setConf('DB_USER', process.env.DB_USER || '');
-setConf('DB_PASSWORD', process.env.DB_PASSWORD || '');
-setConf('DB_PORT', process.env.DB_PORT || '27017');
+setConf('DB_HOST', process.env.DB_HOST || '3.12.154.93');
+setConf('DB_NAME', process.env.DB_NAME || 'hapi');
+setConf('DB_USER', process.env.DB_USER || 'admin');
+setConf('DB_PASSWORD', process.env.DB_PASSWORD || 'admin');
+setConf('DB_PORT', process.env.DB_PORT || '3306');
 setConf('REDIS_HOST', process.env.REDIS_HOST || '127.0.0.1');
-setConf('mCSD:url', process.env.HEARTH_URL || 'http://localhost:8081');
+setConf('mCSD:url', process.env.HEARTH_URL || 'http://3.12.154.93:8080/');
 setConf('server:port', process.env.GOFR_PORT || getConf('server:port'));
 
 exports.getConf = getConf;
