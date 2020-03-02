@@ -109,9 +109,9 @@
     "name": "facilityAddRequest"
   }],
   "hapi": {
-    "DBUser": "hapi",
-    "DBPassword": "hapi",
-    "defaultDBName": "gofr_empty",
+    "DBUser": "admin",
+    "DBPassword": "admin",
+    "defaultDBName": "hapi",
     "requestsDBName": "gofrrequests_empty",
     "fhirVersion": "R4",
     "DBDependencyGrpID": "mysql",
