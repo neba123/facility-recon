@@ -122,7 +122,7 @@
     "tomcatPath": "/usr/local/tomcat/"
   },
   "pg": {
-    "user": "gofr",
-    "password": "gofr"
+    "user": "admin",
+    "password": "admin"
   }
 }
