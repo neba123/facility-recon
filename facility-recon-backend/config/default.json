@@ -114,12 +114,12 @@
     "defaultDBName": "gofr_empty",
     "requestsDBName": "gofrrequests_empty",
     "fhirVersion": "R4",
-    "DBDependencyGrpID": "org.postgresql",
-    "DBDependencyArtfactID": "postgresql",
-    "DBDriver": "org.postgresql.Driver",
-    "DBDialect": "org.hibernate.dialect.PostgreSQL95Dialect",
-    "serverStarterPath": "/home/ally/hapi-fhir-jpaserver-starter",
-    "tomcatPath": "/opt/tomcat"
+    "DBDependencyGrpID": "mysql",
+    "DBDependencyArtfactID": "mysql-connector-java",
+    "DBDriver": "com.mysql.jdbc.Driver",
+    "DBDialect": "org.hibernate.dialect.MySQL5InnoDBDialect",
+    "serverStarterPath": "/home/ubuntu/hapi-fhir-jpaserver-starter",
+    "tomcatPath": "/usr/local/tomcat/"
   },
   "pg": {
     "user": "gofr",
